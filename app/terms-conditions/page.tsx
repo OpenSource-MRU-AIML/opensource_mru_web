@@ -51,12 +51,12 @@ export default function TermsConditions() {
 
                         <h2 className="text-2xl font-semibold mb-4">2. Collaboration</h2>
                         <p className="mb-4">
-                            Effective communication and teamwork are essential. Participants should be open to feedback and willing to assist others in achieving the program's goals.
+                            Effective communication and teamwork are essential. Participants should be open to feedback and willing to assist others in achieving the program&apos;s goals.
                         </p>
 
                         <h2 className="text-2xl font-semibold mb-4">3. Contribution Guidelines</h2>
                         <p className="mb-4">
-                            All contributions must adhere to the project's coding standards and guidelines. Ensure that your code is well-documented, tested, and follows the project's structure.
+                            All contributions must adhere to the project&apos;s coding standards and guidelines. Ensure that your code is well-documented, tested, and follows the project&apos;s structure.
                         </p>
 
                         <h2 className="text-2xl font-semibold mb-4">4. Intellectual Property</h2>
