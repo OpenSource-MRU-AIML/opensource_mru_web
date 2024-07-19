@@ -31,3 +31,11 @@ body {
     text-wrap: balance;
   }
 }
+
+.primary-clr {
+  background-color: #37abff;
+}
+
+.primary-clr-text {
+  color: #37abff;
+}
