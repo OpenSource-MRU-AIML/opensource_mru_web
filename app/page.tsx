@@ -1,10 +1,10 @@
+import Link from "next/link";
 import { BsCodeSlash } from "react-icons/bs";
 
 export default function Home() {
   return (
     <main className="m-10">
       <div className="flex flex-col gap-10">
-
         <div className="flex flex-row justify-between place-items-center">
           <div className="flex flex-row gap-3 place-items-center">
             <div className="md:text-5xl text-4xl">
@@ -14,11 +14,13 @@ export default function Home() {
               OpenSource<br />MRU
             </div>
           </div>
-          <div className="primary-clr h-fit flex flex-row justify-center rounded">
-            <div className="text-gray-900 mx-6 my-2">
-              Join Now!
+          <Link href={'https://forms.office.com/r/beYX9bLvPS'}>
+            <div className="primary-clr h-fit flex flex-row justify-center rounded">
+              <div className="text-gray-900 mx-6 my-2">
+                Join Now!
+              </div>
             </div>
-          </div>
+          </Link>
         </div>
 
         <div className="flex flex-col place-items-center">
@@ -41,11 +43,13 @@ export default function Home() {
           <div className="md:text-xl text-white opacity-70 text-center md:w-1/2  w-5/6 text-sm">
             We are a community of developers and designers collectively contributing to build products for Malla Reddy University.
           </div>
-          <div className="primary-clr h-fit flex flex-row justify-center rounded my-10">
-            <div className="text-gray-900 mx-6 my-2">
-              Join Now!
+          <Link href={'https://forms.office.com/r/beYX9bLvPS'}>
+            <div className="primary-clr h-fit flex flex-row justify-center rounded my-10">
+              <div className="text-gray-900 mx-6 my-2">
+                Join Now!
+              </div>
             </div>
-          </div>
+          </Link>
         </div>
 
         <div className="flex flex-col gap-5 ">
