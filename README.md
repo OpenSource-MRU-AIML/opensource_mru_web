@@ -2,6 +2,8 @@
 
 Welcome to the OpenSource MRU project! This repository contains the code for the official website of the Open Source initiative at Malla Reddy University.
 
+Visit Deployed: [Website](https://orange-island-080826700.5.azurestaticapps.net/)
+
 ## Table of Contents
 - [Project Description](#project-description)
 - [Features](#features)
