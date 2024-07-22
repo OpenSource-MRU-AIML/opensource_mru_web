@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsCodeSlash } from "react-icons/bs";
-import { FaGithub } from "react-icons/fa";
+import { FaDiscord, FaGithub } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -26,18 +26,30 @@ export default function Home() {
               OpenSource<br />MRU
             </div>
           </div>
-          <motion.div
-            className=""
-            whileHover={{ scale: 1.1 }}
-          >
 
-            <Link href={"https://github.com/OpenSource-MRU-AIML"}>
-              <div className="text-2xl mr-10">
-                <FaGithub />
-              </div>
-            </Link>
+          <div className="flex flex-row">
+            <motion.div
+              className=""
+              whileHover={{ scale: 1.1 }}
+            >
+              <Link href={"https://github.com/OpenSource-MRU-AIML"}>
+                <div className="text-2xl mr-10">
+                  <FaGithub />
+                </div>
+              </Link>
+            </motion.div>
+            <motion.div
+              className=""
+              whileHover={{ scale: 1.1 }}
+            >
+              <Link href={"https://discord.gg/vspmC9YY"}>
+                <div className="text-2xl mr-10">
+                  <FaDiscord />
+                </div>
+              </Link>
+            </motion.div>
+          </div>
 
-          </motion.div>
         </motion.div>
 
         <motion.div
