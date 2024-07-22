@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsCodeSlash } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -25,16 +26,18 @@ export default function Home() {
               OpenSource<br />MRU
             </div>
           </div>
-          <Link href={'https://forms.office.com/r/beYX9bLvPS'}>
-            <motion.div
-              className="primary-clr h-fit flex flex-row justify-center rounded"
-              whileHover={{ scale: 1.1 }}
-            >
-              <div className="text-gray-900 mx-6 my-2">
-                Join Now!
+          <motion.div
+            className=""
+            whileHover={{ scale: 1.1 }}
+          >
+
+            <Link href={"https://github.com/OpenSource-MRU-AIML"}>
+              <div className="text-2xl mr-10">
+                <FaGithub />
               </div>
-            </motion.div>
-          </Link>
+            </Link>
+
+          </motion.div>
         </motion.div>
 
         <motion.div
