@@ -42,7 +42,7 @@ export default function Home() {
               className=""
               whileHover={{ scale: 1.1 }}
             >
-              <Link href={"https://discord.gg/vspmC9YY"}>
+              <Link href={"https://discord.gg/w363gXcN9M"}>
                 <div className="text-2xl mr-10">
                   <FaDiscord />
                 </div>
